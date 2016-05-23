@@ -6,7 +6,7 @@ use Matryoshka\Model\ObservableModel;
 /**
  * Class GirlModelService
  */
-class GirlModelService  extends ObservableModel implements NightClubModelInterface
+class GirlModelService  extends ObservableModel implements GirlModelInterface
 {
 
 }

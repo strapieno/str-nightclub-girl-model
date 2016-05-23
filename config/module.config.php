@@ -42,6 +42,113 @@ return [
     ],
     'strapieno_input_filter_specs' => [
         'Strapieno\NightClubGirl\Model\InputFilter\DefaultInputFilter' => [
+            'given_name' => [
+                'name' => 'given_name',
+                'require' => false,
+                'allow_empty' => true,
+                'filters' => [
+                    'stringtrim' =>  [
+                        'name' => 'stringtrim',
+                    ]
+                ],
+                'validators' => [
+                    'stringlength' => [
+                        'name' => 'stringlength',
+                        'options' => [
+                            'min' => 2,
+                            'max' => 50
+                        ],
+                    ]
+                ]
+            ],
+            'nationality' => [
+                'name' => 'nationality',
+                'require' => false,
+                'allow_empty' => true,
+                'filters' => [
+                    'stringtrim' =>  [
+                        'name' => 'stringtrim',
+                    ]
+                ],
+                'validators' => [
+                    // Add alpha 3 validator
+                ]
+            ],
+            'hips' => [
+                'name' => 'hips',
+                'require' => false,
+                'allow_empty' => true,
+                'filters' => [
+                    'stringtrim' =>  [
+                        'name' => 'stringtrim',
+                    ]
+                ],
+                'validators' => [
+                    'digit' => [
+                        'name' => 'digit'
+                    ]
+                ]
+            ],
+            'height' => [
+                'name' => 'height',
+                'require' => false,
+                'allow_empty' => true,
+                'filters' => [
+                    'stringtrim' =>  [
+                        'name' => 'stringtrim',
+                    ]
+                ],
+                'validators' => [
+                    'digit' => [
+                        'name' => 'digit'
+                    ]
+                ]
+            ],
+            'hips' => [
+                'name' => 'hips',
+                'require' => false,
+                'allow_empty' => true,
+                'filters' => [
+                    'stringtrim' =>  [
+                        'name' => 'stringtrim',
+                    ]
+                ],
+                'validators' => [
+                    'digit' => [
+                        'name' => 'digit'
+                    ]
+                ]
+            ],
+            'breast' => [
+                'name' => 'breast',
+                'require' => false,
+                'allow_empty' => true,
+                'filters' => [
+                    'stringtrim' =>  [
+                        'name' => 'stringtrim',
+                    ]
+                ],
+                'validators' => [
+                    'digit' => [
+                        'name' => 'digit'
+                    ]
+                ]
+            ],
+            'waist' => [
+                'name' => 'waist',
+                'require' => false,
+                'allow_empty' => true,
+                'filters' => [
+                    'stringtrim' =>  [
+                        'name' => 'stringtrim',
+                    ]
+                ],
+                'validators' => [
+                    'digit' => [
+                        'name' => 'digit'
+                    ]
+                ]
+            ],
 
         ]
     ]
