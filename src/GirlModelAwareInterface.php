@@ -1,5 +1,5 @@
 <?php
-namespace Strapieno\NightClubGirl\Model\Hydrator\Mongo;
+namespace Strapieno\NightClubGirl\Model;
 
 /**
  * Interface ReviewModelAwareInterface
