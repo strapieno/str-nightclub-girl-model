@@ -4,7 +4,7 @@ namespace Strapieno\NightClubGirl\Model;
 /**
  * Interface ReviewModelAwareInterface
  */
-interface ReviewModelAwareInterface
+interface GirlModelAwareInterface
 {
     /**
      * @return null|GirlModelInterface
