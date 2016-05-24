@@ -84,8 +84,8 @@ return [
                     ]
                 ],
                 'validators' => [
-                    'digit' => [
-                        'name' => 'digit'
+                    'digits' => [
+                        'name' => 'digits'
                     ]
                 ]
             ],
@@ -99,8 +99,8 @@ return [
                     ]
                 ],
                 'validators' => [
-                    'digit' => [
-                        'name' => 'digit'
+                    'digits' => [
+                        'name' => 'digits'
                     ]
                 ]
             ],
@@ -114,8 +114,8 @@ return [
                     ]
                 ],
                 'validators' => [
-                    'digit' => [
-                        'name' => 'digit'
+                    'digits' => [
+                        'name' => 'digits'
                     ]
                 ]
             ],
@@ -129,8 +129,8 @@ return [
                     ]
                 ],
                 'validators' => [
-                    'digit' => [
-                        'name' => 'digit'
+                    'digits' => [
+                        'name' => 'digits'
                     ]
                 ]
             ],
@@ -144,8 +144,8 @@ return [
                     ]
                 ],
                 'validators' => [
-                    'digit' => [
-                        'name' => 'digit'
+                    'digits' => [
+                        'name' => 'digits'
                     ]
                 ]
             ],
