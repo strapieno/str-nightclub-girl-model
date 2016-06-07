@@ -9,6 +9,6 @@ use Strapieno\Utils\Initializer\AbstractModelServiceInitializer;
 class GirlModelInitializer extends AbstractModelServiceInitializer
 {
     const SERVICE_NAME = GirlModelService::class;
-    const INSTANCE_CLASS = GirlModelInterface::class;
+    const INSTANCE_CLASS = GirlModelAwareInterface::class;
     const SETTER_METHOD = 'setNightClubGirlModelService';
 }
