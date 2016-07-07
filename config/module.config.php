@@ -42,8 +42,8 @@ return [
     ],
     'strapieno_input_filter_specs' => [
         'Strapieno\NightClubGirl\Model\InputFilter\DefaultInputFilter' => [
-            'given_name' => [
-                'name' => 'given_name',
+            'give_name' => [
+                'name' => 'give_name',
                 'require' => false,
                 'allow_empty' => true,
                 'filters' => [
@@ -91,21 +91,6 @@ return [
             ],
             'height' => [
                 'name' => 'height',
-                'require' => false,
-                'allow_empty' => true,
-                'filters' => [
-                    'stringtrim' =>  [
-                        'name' => 'stringtrim',
-                    ]
-                ],
-                'validators' => [
-                    'digits' => [
-                        'name' => 'digits'
-                    ]
-                ]
-            ],
-            'hips' => [
-                'name' => 'hips',
                 'require' => false,
                 'allow_empty' => true,
                 'filters' => [
