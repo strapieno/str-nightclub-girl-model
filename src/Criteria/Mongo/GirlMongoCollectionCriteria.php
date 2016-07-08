@@ -14,8 +14,8 @@ class GirlMongoCollectionCriteria extends FindAllCriteria
      */
     public function setNightclubId($nightclubId)
     {
-        // TODO add hydrator
-        $this->selectionCriteria['nightclub_id'] = (string) $nightclubId;
+        // FIXME id to mongoid?
+        $this->selectionCriteria['night_club_reference.id'] = (string) $nightclubId;
         return $this;
     }
 }
